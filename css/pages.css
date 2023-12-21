@@ -1,0 +1,78 @@
+.l-login-page{
+  width: 80%;
+  margin-left: 20%;
+  height: 600px;
+  background-color: rgb(233, 223, 223);
+}
+.l-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+}
+.l-form{
+  border: 1px solid black;
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.l-form-main{
+  border: 1px solid black;
+  height: 70%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+}
+.l-form-main h2{
+  text-align: center;
+  height: 50px;
+  color: white;
+  padding-top: 20px;
+  margin-top: 0;
+  background-color: rgb(4, 4, 133);
+}
+.l-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px ;
+}
+.l-login input{
+  width: 80%;
+  outline: none;
+  border-width: thin;
+  border-radius: 5px;
+  height: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 10px;
+}
+.l-login-button{
+  border-width: thin;
+  border-radius: 5px;
+  height: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+  
+.l-login-button:hover{
+  box-shadow: 5px 5px 5px #3498db;
+}
+.m-maps-p{
+  text-align: center;
+  font-size: 18px;
+} 
